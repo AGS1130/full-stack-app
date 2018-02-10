@@ -104,7 +104,7 @@ How you store the data and what technology you will use is completely up to you.
 * IaaS: Comprised of highly automated and scalable compute resources, for flexibility and high scalability.
 
 __In short:__
-![Look up Gartner's Magic Quadrant for each cloud service](https://a.disquscdn.com/uploads/mediaembed/images/3408/2416/original.jpg?w=800&h Check Gartner's Magic Quadrant)
+![alt text](https://a.disquscdn.com/uploads/mediaembed/images/3408/2416/original.jpg?w=800&h Check Gartner's Magic Quadrant)
 ### What, no database?
 What you saw above are cloud services that may help with deployment of your app. You should also think where it will be necessary to deploy. 
 
