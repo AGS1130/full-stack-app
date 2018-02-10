@@ -103,7 +103,6 @@ How you store the data and what technology you will use is completely up to you.
 * SaaS: Moves the task of managing software and its deployment to third-party services
 * IaaS: Comprised of highly automated and scalable compute resources, for flexibility and high scalability.
 
-__In short:__
 ![Check Gartner's Magic Quadrant for cloud services](https://a.disquscdn.com/uploads/mediaembed/images/3408/2416/original.jpg?w=800&h "Look @ Gartner's Magic Quadrant")
 ### What, no database?
 What you saw above are cloud services that may help with deployment of your app. You should also think where it will be necessary to deploy. 
