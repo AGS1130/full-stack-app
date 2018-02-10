@@ -7,12 +7,12 @@ For now, this will be written in a very high level overview. This should be lang
 Anyone with experience in building a full stack app, whether by yourself, with a team, or having individual responsibilities such as the front-end or back-end can contribute to this repo.
 
 This repo (so far) will dive into four common patterns I have seen when building a full stack app:
-1. Getting data
-2. Storing data
+1. [Getting data] [1]
+2. [Storing data] [2]
 3. Retrieving and Manipulating the data
 4. Presenting the data
 
-## Get data
+## [1] Get data
 You need data in some kind of shape or form and it can come from user responses from forms that you created or a request over an API.
 
 Whatever you are building be a blog post, calander app, or the next Airbnb you're going to need information, facts, or data.
@@ -92,3 +92,5 @@ If it is qualitative:
 You are asking for value in personal responses and this can lead to phenomenal information.
 
 When you have an idea of the data that you will be needing move on to storing that information.
+
+## [2] Storing Data
