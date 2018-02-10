@@ -6,11 +6,12 @@ For now, this will be written in a very high level overview. This should be lang
 
 Anyone with experience in building a full stack app, whether by yourself, with a team, or having individual responsibilities such as the front-end or back-end can contribute to this repo.
 
-This repo (so far) will dive into four common patterns I have seen when building a full stack app:
+This repo (so far) will dive into five common patterns I have seen when building a full stack app:
 1. [Getting data](https://github.com/AGS1130/full-stack-app/blob/master/README.md#get-data)
 2. [Storing data](https://github.com/AGS1130/full-stack-app/blob/master/README.md#storing-data)
 3. Retrieving and Manipulating the data
 4. Presenting the data
+5. Deployment
 
 ## Get data
 You need data in some kind of shape or form and it can come from user responses from forms that you created or a request over an API.
@@ -91,6 +92,20 @@ You are asking for value in numbers and making sure that number is accurate.
 If it is qualitative:
 You are asking for value in personal responses and this can lead to phenomenal information.
 
+By now, you should also ask if this data is coming from a user or an API. In the back of your head you should have an idea of how to access the data and from there design your middleware to obtain it and communicate to the rest of the app.
+
 When you have an idea of the data that you will be needing move on to storing that information.
 
 ## Storing Data
+How you store the data and what technology you will use is completely up to you. However, take into consideration what is available to store your data:
+
+* PaaS: Deals with servers and give clients an environment in which OS, server software, and network infrastructure are taken care of.
+* SaaS: Moves the task of managing software and its deployment to third-party services
+* IaaS: Comprised of highly automated and scalable compute resources, for flexibility and high scalability.
+
+__In short:__
+![Look up Gartner's Magic Quadrant for each cloud service](https://a.disquscdn.com/uploads/mediaembed/images/3408/2416/original.jpg?w=800&h Check Gartner's Magic Quadrant)
+### What, no database?
+What you saw above are cloud services that may help with deployment of your app. You should also think where it will be necessary to deploy. 
+
+However, these cloud services also managae databases.
