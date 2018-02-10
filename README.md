@@ -7,8 +7,8 @@ For now, this will be written in a very high level overview. This should be lang
 Anyone with experience in building a full stack app, whether by yourself, with a team, or having individual responsibilities such as the front-end or back-end can contribute to this repo.
 
 This repo (so far) will dive into four common patterns I have seen when building a full stack app:
-1. [Getting data] (https://github.com/AGS1130/full-stack-app/blob/master/README.md#get-data)
-2. [Storing data] (https://github.com/AGS1130/full-stack-app/blob/master/README.md#storing-data)
+1. [Getting data](https://github.com/AGS1130/full-stack-app/blob/master/README.md#get-data)
+2. [Storing data](https://github.com/AGS1130/full-stack-app/blob/master/README.md#storing-data)
 3. Retrieving and Manipulating the data
 4. Presenting the data
 
