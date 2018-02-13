@@ -114,7 +114,7 @@ For that reason we can also consider them as Database-as-a-service (DBaaS).
 There are alternatives, such as running your database locally or through a dedicated server. This all depends on you or your team's needs(for more info click [here](https://www.rackspace.com/en-us/cloud/cloud-computing/cloud-vs-dedicated)).
 
 When you decide where you want your database to be hosted now you will look into what database you want to use.
-| :SQL:                                                                                    | :NoSQL:      |
+| SQL                                                                                      | NoSQL         |
 | ---------------------------------------------------------------------------------------- | ------------- |
 | [Amazon Relational Database Service](https://aws.amazon.com/rds/)              | [Amazon DynamoDB](https://aws.amazon.com/dynamodb/) |
 | [EnterpriseDB](https://www.enterprisedb.com/)                        | [CosmosDB](https://docs.microsoft.com/en-us/azure/cosmos-db/) |
