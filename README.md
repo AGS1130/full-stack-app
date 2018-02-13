@@ -131,3 +131,8 @@ One of the biggest decisions is picking a relational (SQL) or non-relational (No
 In a very high level, SQL databases use structured query language (SQL) for defining and manipulating data.
 
 It is a very safe choice, especially great for complex queries. However it can be restrictive. 
+
+#### NoSQL
+NoSQL databases have dynamic schema for unstructured data, and data is stored in many ways: it can be column-oriented, document-oriented, graph-based or organized as a KeyValue store.
+
+
