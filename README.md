@@ -108,4 +108,25 @@ How you store the data and what technology you will use is completely up to you.
 ### What, no database?
 What you saw above are cloud services that may help with deployment of your app. You should also think where it will be necessary to deploy. 
 
-However, these cloud services also managae the servers for your database.
+However, these cloud services, for the most part, also manage the servers that will host your database.
+For that reason we can also consider them as Database-as-a-service (DBaaS).
+
+There are alternatives, such as running your database locally or through a dedicated server. This all depends on you or your team's needs(for more info click [here](https://www.rackspace.com/en-us/cloud/cloud-computing/cloud-vs-dedicated)).
+
+When you decide where you want your database to be hosted now you will look into what database you want to use.
+| :SQL:                                                                                    | :NoSQL:      |
+| ---------------------------------------------------------------------------------------- | ------------- |
+| [Amazon Relational Database Service](https://aws.amazon.com/rds/)              | [Amazon DynamoDB](https://aws.amazon.com/dynamodb/) |
+| [EnterpriseDB](https://www.enterprisedb.com/)                        | [CosmosDB](https://docs.microsoft.com/en-us/azure/cosmos-db/) |
+| [Google Cloud](https://cloud.google.com/)                                                | [Firebase](https://firebase.google.com)   |
+| [Heroku](https://www.heroku.com/postgres)                                                | [mLab](https://mlab.com/)                 |
+| [Oracle Database Cloud Service](https://cloud.oracle.com/database)                       | [CouchDB](https://couchdb.apache.org/)    |
+| [Microsoft Azure SQL Database](https://azure.microsoft.com/en-us/services/sql-database/) | [RedisLabs](https://redislabs.com/)       |
+
+### SQL vs NoSQL
+One of the biggest decisions is picking a relational (SQL) or non-relational (NoSQL) data structure.
+
+#### SQL
+In a very high level, SQL databases use structured query language (SQL) for defining and manipulating data.
+
+It is a very safe choice, especially great for complex queries. However it can be restrictive. 
